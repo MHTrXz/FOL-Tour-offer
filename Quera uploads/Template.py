@@ -58,6 +58,11 @@ class App(tkinter.Tk):
         output += "\nfunded locations: " + str(results)
 
         finalResults = self.check_connections(results)
+
+        if finalResults == -1:
+            results = findCitiesUnion(locations)
+            finalResults = self.check_connections(results)
+
         output += "\n finale results: " + str(finalResults)
 
         output += "\n------------------\n"
@@ -86,6 +91,7 @@ class App(tkinter.Tk):
         """Mark extracted locations on the map."""
         self.marker_list = []
         for address in locations:
+            print(address)
             marker = self.map_widget.set_address(address, marker=True)
             if marker:
                 self.marker_list.append(marker)
@@ -93,7 +99,6 @@ class App(tkinter.Tk):
         self.map_widget.set_zoom(1)  # Adjust as necessary, 1 is usually the most zoomed out
 
     def connect_marker(self):
-        print(self.marker_list)
         position_list = []
 
         for marker in self.marker_list:
@@ -184,7 +189,7 @@ prolog.retractall("natural_wonder(_, _)")
 prolog.retractall("accommodation(_, _)")
 prolog.retractall("language(_, _)")
 
-dataset = open('Destinations.csv')
+dataset = open('../Datasets/Destinations.csv')
 skip = True
 for i in csv.reader(dataset):
     if skip:
@@ -232,7 +237,7 @@ natural_wonder = set()
 accommodation = set()
 language = set()
 
-dataset = open('Destinations.csv')
+dataset = open('../Datasets/Destinations.csv')
 skip = True
 
 for row in csv.reader(dataset):
@@ -256,14 +261,14 @@ for row in csv.reader(dataset):
 prolog.retractall("directly_connected(_, _)")
 prolog.retractall("connected(_, _)")
 
-dataset = open('Adjacency_matrix.csv')
+dataset = open('../Datasets/Adjacency_matrix.csv')
 cities = []
 currentIndex = 1
 for i in csv.reader(dataset):
     if len(cities) == 0:
         cities = i
         continue
-    currentCity = i[0].replace("'", '"')
+    currentCity = i[0].replace("'", '"').replace(' ', '-').lower()
     for j in range(1, len(i)):
         if currentCity != cities[j] and i[j] == '1':
             prolog.assertz("directly_connected('" + currentCity + "', '" + cities[j].replace("'", '"') + "')")
@@ -272,39 +277,88 @@ prolog.assertz("connected(X, Y) :- directly_connected(X, Y)")  # level 1
 prolog.assertz("connected(X, Y) :- directly_connected(Y, X)")  # level 1
 
 
-# prolog.assertz("connected(X, Y) :- directly_connected(X, Z), directly_connected(Z, Y)")  # level 2
-# prolog.assertz("connected(X, Y) :- directly_connected(Y, Z), directly_connected(Z, X)")  # level 2
-# prolog.assertz("connected(X, Y) :- directly_connected(X, Z), directly_connected(Z, W), directly_connected(W, Y)")  # level 3
-# prolog.assertz("connected(X, Y) :- directly_connected(Y, Z), directly_connected(Z, W), directly_connected(W, X)")  # level 3
-
-
-def GraphQuery(factor, X, Y, isBool=False):
+def GraphQuery(factor, X, Y=None, isBool=False):
     if isBool:
         return bool(prolog.query(factor + "(" + X + ", " + Y + ")"))
     output = []
-    for city in prolog.query(factor + "(" + X + ", " + Y + ")"):
-        output.append(city[Y])
+    for city in prolog.query(factor + "(" + X + ", Y)"):
+        output.append(city['Y'])
     return output
 
 
+features = ["destination", "country", "region", "climate", "budget", "activity", "demographics", "duration",
+            "cuisine", "history", "natural_wonder", "accommodation", "language"]
+
+
 def findCities(keyFeatures):
-    features = ["destination", "country", "region", "climate", "budget", "activity", "demographics", "duration",
-                "cuisine", "history", "natural_wonder", "accommodation", "language"]
     output = set(keyFeatures[0])
     for feature in range(1, len(keyFeatures)):
         for option in keyFeatures[feature]:
-            print(option)
             output = output.intersection(FlatFactQuery(features[feature], "'" + option + "'")) if len(
                 output) > 0 else FlatFactQuery(features[feature], "'" + option + "'")
     return list(output)
 
 
+def findCitiesUnion(keyFeatures):
+    output = set(keyFeatures[0])
+    for feature in range(1, len(keyFeatures)):
+        for option in keyFeatures[feature]:
+            output = output.union(FlatFactQuery(features[feature], "'" + option + "'")) if len(
+                output) > 0 else FlatFactQuery(features[feature], "'" + option + "'")
+    return list(output)
+
+
 def checkConnection(cities):
-    output = list()
-    for i in range(len(cities) - 1):
-        if GraphQuery('connected', "'" + cities[i] + "'", "'" + cities[i + 1] + "'", True):
-            output.append(cities[i])
-    return output
+    calc = {x: dict() for x in cities}
+    for k, v in calc.items():
+        for i in GraphQuery('connected', "'" + k + "'"):
+            if i != k:
+                calc[k][i] = list()
+                for j in GraphQuery('connected', "'" + i + "'"):
+                    if j != i and k != j:
+                        calc[k][i].append(j)
+
+    outputs = calculate(cities, calc)
+
+    if len([len(x) for x in outputs if x[-1] in cities]):
+        print('Tours:')
+        for i in outputs:
+            print('->'.join(i))
+
+        maxL = max([len(x) for x in outputs if x[-1] in cities])
+        bTour = list()
+        for i in outputs:
+            if len(i) == maxL:
+                bTour = i
+                break
+        print('\nBest Tour: ', '->'.join(bTour))
+        return list(set(bTour))
+    else:
+        return -1
+
+
+def calculate(cities, calc):
+    print('1st query: ', cities)
+    print('Graphs:')
+    for k1, v1 in calc.items():
+        print(k1)
+        for k2, v2 in v1.items():
+            print('\t', k2, '\t', v2)
+
+    outputs = []
+    for k1, v1 in calc.items():
+        for k2, v2 in v1.items():
+            outputs.append([k1, k2])
+            for city in v2:
+                if city in cities:
+                    outputs.append([k1, k2, city])
+
+    length = len(outputs)
+    for i in range(length):
+        for j in range(length):
+            if outputs[i][-1] == outputs[j][0] and outputs[i][0] != outputs[j][-1]:
+                outputs.append(outputs[i] + outputs[j][1:])
+    return outputs
 
 
 if __name__ == "__main__":

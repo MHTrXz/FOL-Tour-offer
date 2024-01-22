@@ -1,0 +1,672 @@
+Flat Fact
+Input text: low
+key features:([], [], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['cairo', 'buenos-aires', 'mexico-city', 'cusco', 'bangkok', 'chengdu', 'islamabad', 'aswan', 'dhaka', 'tehran', 'new-delhi', 'brasilia', 'lima', 'jakarta', 'shiraz', 'hanoi', 'lahore', 'kathmandu', 'karachi', 'luxor', 'nairobi', 'warsaw', 'colombo', 'manila', 'kyiv', 'bogota', 'arequipa', 'medellin', 'izmir', 'alexandria', 'bursa', 'rabat', 'mashhad', 'yazd', 'moscow', 'kuala-lumpur', 'cali']
+ finale results: ['cairo', 'buenos-aires', 'mexico-city', 'cusco', 'bangkok', 'chengdu', 'islamabad', 'aswan', 'dhaka', 'tehran', 'new-delhi', 'brasilia', 'lima', 'jakarta', 'shiraz', 'hanoi', 'lahore', 'kathmandu', 'karachi', 'luxor', 'nairobi', 'warsaw', 'colombo', 'manila', 'kyiv', 'bogota', 'arequipa', 'medellin', 'izmir', 'alexandria', 'bursa', 'rabat', 'mashhad', 'yazd', 'moscow', 'kuala-lumpur']
+------------------
+
+Flat Fact
+Input text: low
+key features:([], [], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['luxor', 'mashhad', 'bursa', 'dhaka', 'shiraz', 'hanoi', 'kyiv', 'kathmandu', 'nairobi', 'cali', 'brasilia', 'colombo', 'chengdu', 'alexandria', 'warsaw', 'moscow', 'new-delhi', 'mexico-city', 'bangkok', 'buenos-aires', 'izmir', 'karachi', 'aswan', 'manila', 'cusco', 'tehran', 'islamabad', 'yazd', 'lima', 'medellin', 'kuala-lumpur', 'lahore', 'jakarta', 'arequipa', 'rabat', 'bogota', 'cairo']
+ finale results: ['luxor', 'mashhad', 'bursa', 'dhaka', 'shiraz', 'hanoi', 'kyiv', 'kathmandu', 'nairobi', 'cali', 'brasilia', 'colombo', 'chengdu', 'alexandria', 'warsaw', 'moscow', 'new-delhi', 'mexico-city', 'bangkok', 'buenos-aires', 'izmir', 'karachi', 'aswan', 'manila', 'cusco', 'tehran', 'islamabad', 'yazd', 'lima', 'medellin', 'kuala-lumpur', 'lahore', 'jakarta', 'arequipa', 'rabat', 'bogota']
+------------------
+
+Flat Fact
+Input text: low
+key features:([], [], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['bursa', 'izmir', 'new-delhi', 'islamabad', 'tehran', 'kyiv', 'bogota', 'buenos-aires', 'alexandria', 'nairobi', 'shiraz', 'cali', 'mashhad', 'hanoi', 'dhaka', 'colombo', 'kathmandu', 'cusco', 'moscow', 'kuala-lumpur', 'mexico-city', 'yazd', 'warsaw', 'arequipa', 'luxor', 'cairo', 'jakarta', 'medellin', 'brasilia', 'lahore', 'manila', 'karachi', 'rabat', 'aswan', 'bangkok', 'chengdu', 'lima']
+ finale results: ['bursa', 'izmir', 'new-delhi', 'islamabad', 'tehran', 'kyiv', 'bogota', 'buenos-aires', 'alexandria', 'nairobi', 'shiraz', 'cali', 'mashhad', 'hanoi', 'dhaka', 'colombo', 'kathmandu', 'cusco', 'moscow', 'kuala-lumpur', 'mexico-city', 'yazd', 'warsaw', 'arequipa', 'luxor', 'cairo', 'jakarta', 'medellin', 'brasilia', 'lahore', 'manila', 'karachi', 'rabat', 'aswan', 'bangkok', 'chengdu']
+------------------
+
+Flat Fact
+Input text: low
+key features:([], [], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['bangkok', 'cusco', 'tehran', 'luxor', 'izmir', 'bursa', 'karachi', 'buenos-aires', 'nairobi', 'cairo', 'bogota', 'jakarta', 'kyiv', 'yazd', 'cali', 'dhaka', 'new-delhi', 'lahore', 'kathmandu', 'colombo', 'alexandria', 'islamabad', 'hanoi', 'shiraz', 'moscow', 'medellin', 'chengdu', 'mexico-city', 'manila', 'arequipa', 'mashhad', 'brasilia', 'warsaw', 'kuala-lumpur', 'aswan', 'rabat', 'lima']
+ finale results: bangkok
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['shiraz', 'tehran', 'isfahan', 'yazd', 'tabriz', 'mashhad']
+ finale results: shiraz
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['tehran', 'mashhad', 'isfahan', 'yazd', 'tabriz', 'shiraz']
+ finale results: tehran
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['shiraz', 'yazd', 'tabriz', 'tehran', 'isfahan', 'mashhad']
+ finale results: shiraz
+------------------
+
+Flat Fact
+Input text: iran low Mexico
+key features:([], ['iran', 'mexico'], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['aswan', 'medellin', 'alexandria', 'cusco', 'kyiv', 'buenos-aires', 'mexico-city', 'cairo', 'chengdu', 'warsaw', 'jakarta', 'kuala-lumpur', 'nairobi', 'arequipa', 'moscow', 'lahore', 'islamabad', 'lima', 'shiraz', 'rabat', 'luxor', 'yazd', 'hanoi', 'new-delhi', 'bangkok', 'bogota', 'tehran', 'karachi', 'izmir', 'kathmandu', 'cali', 'manila', 'bursa', 'brasilia', 'mashhad', 'dhaka', 'colombo']
+ finale results: aswan
+------------------
+
+Flat Fact
+Input text: iran mexico low
+key features:([], ['iran', 'mexico'], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['cairo', 'bursa', 'lima', 'mexico-city', 'kyiv', 'manila', 'cusco', 'bogota', 'hanoi', 'moscow', 'kuala-lumpur', 'brasilia', 'chengdu', 'jakarta', 'rabat', 'mashhad', 'islamabad', 'izmir', 'bangkok', 'nairobi', 'new-delhi', 'buenos-aires', 'luxor', 'aswan', 'dhaka', 'tehran', 'cali', 'shiraz', 'karachi', 'kathmandu', 'colombo', 'yazd', 'alexandria', 'warsaw', 'medellin', 'lahore', 'arequipa']
+ finale results: cairo
+------------------
+
+Flat Fact
+Input text: iran mexico low
+key features:([], ['iran', 'mexico'], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['buenos-aires', 'new-delhi', 'brasilia', 'chengdu', 'warsaw', 'shiraz', 'medellin', 'rabat', 'luxor', 'hanoi', 'bangkok', 'yazd', 'bogota', 'alexandria', 'karachi', 'tehran', 'kyiv', 'islamabad', 'kuala-lumpur', 'lima', 'moscow', 'arequipa', 'lahore', 'jakarta', 'izmir', 'manila', 'cali', 'aswan', 'nairobi', 'kathmandu', 'dhaka', 'cusco', 'bursa', 'mexico-city', 'cairo', 'colombo', 'mashhad']
+ finale results: buenos-aires
+------------------
+
+Flat Fact
+Input text: mexico low
+key features:([], ['mexico'], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['mexico-city']
+ finale results: mexico-city
+------------------
+
+Flat Fact
+Input text: low Mexico-City
+key features:(['mexico-city'], [], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['mexico-city']
+ finale results: mexico-city
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['tehran', 'shiraz', 'mashhad', 'yazd', 'isfahan', 'tabriz']
+ finale results: tehran
+------------------
+
+Flat Fact
+Input text: iran low
+key features:([], ['iran'], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['tehran', 'shiraz', 'mashhad', 'yazd']
+ finale results: tehran
+------------------
+
+Flat Fact
+Input text: iran low
+key features:([], ['iran'], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['tehran', 'shiraz', 'mashhad', 'yazd']
+finale results: tehran
+------------------
+
+Flat Fact
+Input text: iran low
+key features:([], ['iran'], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['yazd', 'shiraz', 'mashhad', 'tehran']
+finale results: yazd
+------------------
+
+Flat Fact
+Input text: iran low
+key features:([], ['iran'], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['mashhad', 'yazd', 'tehran', 'shiraz']
+finale results: mashhad
+------------------
+
+Flat Fact
+Input text: iran low
+key features:([], ['iran'], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['mashhad', 'tehran', 'shiraz', 'yazd']
+finale results: ['tehran', 'shiraz', 'yazd', 'mashhad']
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['isfahan', 'yazd', 'tehran', 'tabriz', 'mashhad', 'shiraz']
+finale results: ['yazd', 'tehran', 'tabriz', 'mashhad', 'shiraz', 'isfahan']
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['tehran', 'shiraz', 'isfahan', 'mashhad', 'tabriz', 'yazd']
+finale results: ['shiraz', 'isfahan', 'mashhad', 'tabriz', 'yazd', 'tehran']
+------------------
+
+Flat Fact
+Input text: low iran
+key features:([], ['iran'], [], [], ['low'], [], [], [], [], [], [], [], [])
+funded locations: ['tehran', 'mashhad', 'shiraz', 'yazd']
+finale results: ['mashhad', 'shiraz', 'yazd', 'tehran']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['shiraz', 'yazd', 'tabriz', 'mashhad', 'tehran']
+finale results: ['yazd', 'tabriz', 'mashhad', 'tehran', 'shiraz']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['yazd', 'tabriz', 'shiraz', 'mashhad', 'tehran']
+finale results: ['tabriz', 'shiraz', 'mashhad', 'tehran', 'yazd']
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['tabriz', 'isfahan', 'mashhad', 'tehran', 'yazd', 'shiraz']
+finale results: None
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['mashhad', 'tehran', 'shiraz', 'isfahan', 'tabriz', 'yazd']
+finale results: None
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['shiraz', 'tabriz', 'mashhad', 'tehran', 'yazd', 'isfahan']
+finale results: ['tehran']
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['tehran', 'tabriz', 'mashhad', 'shiraz', 'yazd', 'isfahan']
+finale results: ['tehran']
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['tabriz', 'isfahan', 'tehran', 'mashhad', 'shiraz', 'yazd']
+finale results: ['tehran']
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['tehran', 'shiraz', 'mashhad', 'isfahan', 'tabriz', 'yazd']
+finale results: ['tehran']
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['isfahan', 'tehran', 'mashhad', 'tabriz', 'yazd', 'shiraz']
+finale results: ['tehran']
+------------------
+
+Flat Fact
+Input text: iran
+key features:([], ['iran'], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['isfahan', 'shiraz', 'mashhad', 'tehran', 'tabriz', 'yazd']
+finale results: ['tehran']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['shiraz', 'mashhad', 'tehran', 'tabriz', 'yazd']
+finale results: ['tehran']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['tabriz', 'shiraz', 'yazd', 'tehran', 'mashhad']
+finale results: ['tabriz', 'Madrid', 'mashhad', 'tabriz']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['shiraz', 'mashhad', 'yazd', 'tabriz', 'tehran']
+finale results: ['shiraz', 'Mexico City']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['mashhad', 'tabriz', 'yazd', 'tehran', 'shiraz']
+finale results: ['mashhad', 'Madrid', 'tabriz']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['tehran', 'yazd', 'tabriz', 'mashhad', 'shiraz']
+finale results: ['tehran', 'Cancun', 'shiraz', 'yazd']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['mashhad', 'yazd', 'tabriz', 'shiraz', 'tehran']
+finale results: ['mashhad', 'Madrid', 'tabriz']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['yazd', 'tabriz', 'mashhad', 'tehran', 'shiraz']
+finale results: []
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['tehran', 'yazd', 'mashhad', 'shiraz', 'tabriz']
+finale results: ['tehran', 'Cancun', 'shiraz', 'yazd']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['tehran', 'shiraz', 'mashhad', 'tabriz', 'yazd']
+finale results: ['tehran', 'Cancun', 'shiraz', 'yazd']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['yazd', 'tabriz', 'shiraz', 'tehran', 'mashhad']
+finale results: ['yazd', 'Cancun', 'tehran', 'shiraz']
+------------------
+
+Flat Fact
+Input text: For my upcoming getaway, I'm envisioning luxury beaches that combine high-end comfort with a stunning seaside setting. Given my high status and desire for a short but opulent escape, I'm looking for a destination where white sandy beaches meet crystal clear waters, and every detail exudes luxury. From five-star beachfront resorts to private sunset sails, this brief vacation will be a lavish indulgence in coastal elegance, providing a perfect blend of relaxation and sumptuousness in a spectacular beach setting.
+key features:([], [], [], [], ['high'], [], [], ['short'], [], [], ['beaches', 'beaches'], ['luxury', 'luxury'], [])
+funded locations: ['paris', 'copenhagen', 'sentosa', 'miami']
+finale results: ['sentosa', 'Lyon', 'miami']
+------------------
+
+Flat Fact
+Input text: I'm seeking an exhilarating adventure in the cold, majestic mountains. My ideal journey involves trekking through crisp, snowy landscapes, where the air is fresh and the views are breathtaking. As an adventurer at heart, I long to conquer challenging mountain trails, camp under the starry sky, and wake up to the serene beauty of frost-covered peaks. This cold mountain adventure promises to be a thrilling escape from the everyday.
+key features:([], [], [], ['cold'], [], ['adventure', 'adventure'], [], ['long'], [], [], ['mountains'], [], [])
+funded locations: ['kathmandu', 'oslo']
+finale results: ['kathmandu', 'Los Angeles', 'oslo']
+------------------
+
+Flat Fact
+Input text: I'm seeking an exhilarating adventure in the cold, majestic mountains. My ideal journey involves trekking through crisp, snowy landscapes, where the air is fresh and the views are breathtaking. As an adventurer at heart, I long to conquer challenging mountain trails, camp under the starry sky, and wake up to the serene beauty of frost-covered peaks. This cold mountain adventure promises to be a thrilling escape from the everyday.
+key features:([], [], [], ['cold'], [], ['adventure', 'adventure'], [], ['long'], [], [], ['mountains'], [], [])
+funded locations: ['kathmandu', 'oslo']
+finale results: ['kathmandu', 'Los Angeles', 'oslo']
+------------------
+
+Flat Fact
+Input text: Kathmandu Oslo Bern
+key features:(['kathmandu', 'oslo', 'bern'], [], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['kathmandu', 'bern', 'oslo']
+finale results: ['kathmandu', 'Los Angeles', 'oslo']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['madrid', 'lisbon', 'florence', 'athens', 'marseille']
+finale results: ['madrid', 'Islamabad', 'athens', 'florence']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['yazd', 'tabriz', 'shiraz', 'mashhad', 'tehran']
+finale results: ['yazd', 'Cancun', 'tehran', 'shiraz']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['yazd', 'mashhad', 'shiraz', 'tabriz', 'tehran']
+finale results: ['yazd', 'Rome', 'yazd']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['tabriz', 'yazd', 'mashhad', 'shiraz', 'tehran']
+finale results: ['tabriz', 'Madrid', 'mashhad']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['tehran', 'yazd', 'mashhad', 'shiraz', 'tabriz']
+finale results: ['tehran', 'Hanoi', 'tehran']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['tehran', 'yazd', 'tabriz', 'mashhad', 'shiraz']
+finale results: ['tehran', 'Hanoi', 'tehran']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['mashhad', 'tabriz', 'tehran', 'shiraz', 'yazd']
+finale results: ['mashhad', 'Madrid', 'mashhad']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['tehran', 'tabriz', 'yazd', 'mashhad', 'shiraz']
+finale results: ['tehran', 'Hanoi', 'tehran']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['yazd', 'shiraz', 'tehran', 'mashhad', 'tabriz']
+finale results: ['yazd', 'Cancun', 'tehran']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['shiraz', 'yazd', 'tabriz', 'tehran', 'mashhad']
+finale results: ['shiraz', 'Cancun', 'tehran']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['yazd', 'shiraz', 'mashhad', 'tabriz', 'tehran']
+finale results: ['yazd', 'Cancun', 'tehran']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['yazd', 'shiraz', 'tehran', 'mashhad', 'tabriz']
+finale results: ['yazd', 'Cancun', 'tehran']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['tehran', 'tabriz', 'yazd', 'mashhad', 'shiraz']
+finale results: ['tehran', 'Cancun', 'shiraz']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['shiraz', 'mashhad', 'tehran', 'tabriz', 'yazd']
+finale results: ['shiraz', 'Cancun', 'tehran', 'Cancun', 'yazd']
+------------------
+
+Flat Fact
+Input text: For my upcoming getaway, I'm envisioning luxury beaches that combine high-end comfort with a stunning seaside setting. Given my high status and desire for a short but opulent escape, I'm looking for a destination where white sandy beaches meet crystal clear waters, and every detail exudes luxury. From five-star beachfront resorts to private sunset sails, this brief vacation will be a lavish indulgence in coastal elegance, providing a perfect blend of relaxation and sumptuousness in a spectacular beach setting.
+key features:([], [], [], [], ['high'], [], [], ['short'], [], [], ['beaches', 'beaches'], ['luxury', 'luxury'], [])
+funded locations: ['paris', 'sentosa', 'miami', 'copenhagen']
+finale results: ['sentosa', 'Lyon', 'miami']
+------------------
+
+Flat Fact
+Input text: For my upcoming getaway, I'm envisioning luxury beaches that combine high-end comfort with a stunning seaside setting. Given my high status and desire for a short but opulent escape, I'm looking for a destination where white sandy beaches meet crystal clear waters, and every detail exudes luxury. From five-star beachfront resorts to private sunset sails, this brief vacation will be a lavish indulgence in coastal elegance, providing a perfect blend of relaxation and sumptuousness in a spectacular beach setting.
+key features:([], [], [], [], ['high'], [], [], ['short'], [], [], ['beaches', 'beaches'], ['luxury', 'luxury'], [])
+funded locations: ['miami', 'paris', 'copenhagen', 'sentosa']
+finale results: ['miami', 'Lyon', 'sentosa']
+------------------
+
+Flat Fact
+Input text: For my upcoming getaway, I'm envisioning luxury beaches that combine high-end comfort with a stunning seaside setting. Given my high status and desire for a short but opulent escape, I'm looking for a destination where white sandy beaches meet crystal clear waters, and every detail exudes luxury. From five-star beachfront resorts to private sunset sails, this brief vacation will be a lavish indulgence in coastal elegance, providing a perfect blend of relaxation and sumptuousness in a spectacular beach setting.
+key features:([], [], [], [], ['high'], [], [], ['short'], [], [], ['beaches', 'beaches'], ['luxury', 'luxury'], [])
+funded locations: ['miami', 'paris', 'sentosa', 'copenhagen']
+finale results: ['miami', 'Lyon', 'sentosa', 'Budapest']
+------------------
+
+Flat Fact
+Input text: I'm seeking an exhilarating adventure in the cold, majestic mountains. My ideal journey involves trekking through crisp, snowy landscapes, where the air is fresh and the views are breathtaking. As an adventurer at heart, I long to conquer challenging mountain trails, camp under the starry sky, and wake up to the serene beauty of frost-covered peaks. This cold mountain adventure promises to be a thrilling escape from the everyday. bern
+key features:(['bern'], [], [], ['cold'], [], ['adventure', 'adventure'], [], ['long'], [], [], ['mountains'], [], [])
+funded locations: ['medellin', 'kathmandu', 'bursa', 'queenstown', 'chengdu', 'lima', 'bern', 'moscow', 'bratislava', 'oslo', 'washington-d.c.', 'santiago', 'beijing', 'wellington', 'tokyo', 'seoul', 'tabriz', 'mexico-city', 'vienna', 'new-delhi', 'hanoi', 'buenos-aires', 'cusco', 'islamabad']
+finale results: ['medellin', 'Bangkok', 'washington-d.c.', 'Canberra', 'wellington']
+------------------
+
+Flat Fact
+Input text: I'm seeking an exhilarating adventure in the cold, majestic mountains. My ideal journey involves trekking through crisp, snowy landscapes, where the air is fresh and the views are breathtaking. As an adventurer at heart, I long to conquer challenging mountain trails, camp under the starry sky, and wake up to the serene beauty of frost-covered peaks. This cold mountain adventure promises to be a thrilling escape from the everyday.
+key features:([], [], [], ['cold'], [], ['adventure', 'adventure'], [], ['long'], [], [], ['mountains'], [], [])
+funded locations: ['kathmandu', 'oslo']
+finale results: ['kathmandu', 'Los Angeles', 'oslo', 'Cairo']
+------------------
+
+Flat Fact
+Input text: I'm seeking an exhilarating adventure in the cold, majestic mountains. My ideal journey involves trekking through crisp, snowy landscapes, where the air is fresh and the views are breathtaking. As an adventurer at heart, I long to conquer challenging mountain trails, camp under the starry sky, and wake up to the serene beauty of frost-covered peaks. This cold mountain adventure promises to be a thrilling escape from the everyday.
+key features:([], [], [], ['cold'], [], ['adventure', 'adventure'], [], ['long'], [], [], ['mountains'], [], [])
+funded locations: ['oslo', 'kathmandu']
+finale results: ['oslo', 'Los Angeles', 'kathmandu', 'Lisbon']
+------------------
+
+Flat Fact
+Input text: I'm seeking an exhilarating adventure in the cold, majestic mountains. My ideal journey involves trekking through crisp, snowy landscapes, where the air is fresh and the views are breathtaking. As an adventurer at heart, I long to conquer challenging mountain trails, camp under the starry sky, and wake up to the serene beauty of frost-covered peaks. This cold mountain adventure promises to be a thrilling escape from the everyday.
+key features:([], [], [], ['cold'], [], ['adventure', 'adventure'], [], ['long'], [], [], ['mountains'], [], [])
+funded locations: ['kathmandu', 'oslo']
+finale results: ['kathmandu', 'Los Angeles', 'oslo', 'Helsinki']
+------------------
+
+Flat Fact
+Input text: I'm seeking an exhilarating adventure in the cold, majestic mountains. My ideal journey involves trekking through crisp, snowy landscapes, where the air is fresh and the views are breathtaking. As an adventurer at heart, I long to conquer challenging mountain trails, camp under the starry sky, and wake up to the serene beauty of frost-covered peaks. This cold mountain adventure promises to be a thrilling escape from the everyday.
+key features:([], [], [], ['cold'], [], ['adventure', 'adventure'], [], ['long'], [], [], ['mountains'], [], [])
+funded locations: ['oslo', 'kathmandu']
+finale results: []
+------------------
+
+Flat Fact
+Input text: I'm seeking an exhilarating adventure in the cold, majestic mountains. My ideal journey involves trekking through crisp, snowy landscapes, where the air is fresh and the views are breathtaking. As an adventurer at heart, I long to conquer challenging mountain trails, camp under the starry sky, and wake up to the serene beauty of frost-covered peaks. This cold mountain adventure promises to be a thrilling escape from the everyday.
+key features:([], [], [], ['cold'], [], ['adventure', 'adventure'], [], ['long'], [], [], ['mountains'], [], [])
+funded locations: ['kathmandu', 'oslo']
+finale results: ['kathmandu', 'Los Angeles', 'oslo']
+------------------
+
+Flat Fact
+Input text: I'm seeking an exhilarating adventure in the cold, majestic mountains. My ideal journey involves trekking through crisp, snowy landscapes, where the air is fresh and the views are breathtaking. As an adventurer at heart, I long to conquer challenging mountain trails, camp under the starry sky, and wake up to the serene beauty of frost-covered peaks. This cold mountain adventure promises to be a thrilling escape from the everyday Bern.
+key features:(['bern'], [], [], ['cold'], [], ['adventure', 'adventure'], [], ['long'], [], [], ['mountains'], [], [])
+funded locations: ['vienna', 'bratislava', 'bern', 'bursa', 'islamabad', 'moscow', 'beijing', 'tabriz', 'seoul', 'chengdu', 'oslo', 'kathmandu', 'buenos-aires', 'medellin', 'washington-d.c.', 'tokyo', 'lima', 'cusco', 'santiago', 'wellington', 'queenstown', 'hanoi', 'new-delhi', 'mexico-city']
+finale results: ['vienna', 'Cairo', 'oslo', 'Helsinki', 'seoul']
+------------------
+
+Flat Fact
+Input text: Kathmandu Oslo Bern
+key features:(['kathmandu', 'oslo', 'bern'], [], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['bern', 'oslo', 'kathmandu']
+finale results: ['oslo', 'Los Angeles', 'kathmandu']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['lisbon', 'florence', 'athens', 'marseille', 'madrid']
+finale results: ['lisbon', 'Tabriz', 'madrid', 'Islamabad', 'athens']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['lisbon', 'marseille', 'madrid', 'athens', 'florence']
+finale results: ['lisbon', 'Tabriz', 'madrid', 'Islamabad', 'athens', 'Islamabad', 'madrid', 'Islamabad', 'florence']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['madrid', 'florence', 'marseille', 'athens', 'lisbon']
+finale results: ['madrid', 'Islamabad', 'athens', 'Islamabad', 'florence', 'Islamabad', 'madrid', 'Islamabad', 'athens', 'Islamabad', 'madrid', 'Islamabad', 'florence', 'Islamabad', 'madrid', 'Tabriz', 'lisbon']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['marseille', 'florence', 'athens', 'lisbon', 'madrid']
+finale results: ['florence', 'Islamabad', 'madrid', 'Islamabad', 'athens']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['athens', 'madrid', 'marseille', 'florence', 'lisbon']
+finale results: ['athens', 'Islamabad', 'madrid', 'Islamabad', 'florence']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['lisbon', 'marseille', 'athens', 'madrid', 'florence']
+finale results: ['lisbon', 'Tabriz', 'madrid', 'Islamabad', 'athens', 'Islamabad', 'madrid', 'Islamabad', 'florence']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['lisbon', 'madrid', 'marseille', 'athens', 'florence']
+finale results: ['lisbon', 'Tabriz', 'madrid', 'Islamabad', 'athens', 'Islamabad', 'madrid', 'Islamabad', 'florence']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['madrid', 'florence', 'marseille', 'athens', 'lisbon']
+finale results: ['madrid', 'Islamabad', 'athens', 'Islamabad', 'florence', 'Islamabad', 'madrid', 'Islamabad', 'athens', 'Islamabad', 'florence', 'Islamabad', 'madrid', 'Tabriz', 'lisbon']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['madrid', 'marseille', 'florence', 'lisbon', 'athens']
+finale results: ['madrid', 'Islamabad', 'athens', 'Islamabad', 'florence', 'Islamabad', 'madrid', 'Islamabad', 'athens']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['florence', 'marseille', 'lisbon', 'athens', 'madrid']
+finale results: ['florence', 'Islamabad', 'madrid', 'Islamabad', 'athens', 'Islamabad', 'madrid', 'Tabriz', 'lisbon']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['marseille', 'florence', 'athens', 'lisbon', 'madrid']
+finale results: ['florence', 'Islamabad', 'madrid', 'Islamabad', 'athens', 'Islamabad', 'madrid', 'Tabriz', 'lisbon']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['florence', 'madrid', 'lisbon', 'athens', 'marseille']
+finale results: ['florence', 'madrid', 'lisbon', 'Tabriz', 'Budapest', 'Islamabad', 'athens']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['florence', 'lisbon', 'athens', 'madrid', 'marseille']
+finale results: ['florence', 'lisbon', 'athens', 'Tabriz', 'madrid', 'Islamabad']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['marseille', 'lisbon', 'florence', 'madrid', 'athens']
+finale results: ['lisbon', 'Tabriz', 'madrid', 'Islamabad', 'athens', 'Budapest', 'Mashhad', 'florence']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['florence', 'lisbon', 'madrid', 'athens', 'marseille']
+finale results: ['florence', 'Islamabad', 'madrid', 'Islamabad', 'athens', 'Islamabad', 'madrid', 'Tabriz', 'lisbon']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['athens', 'lisbon', 'florence', 'marseille', 'madrid']
+finale results: ['athens', 'Tabriz', 'lisbon', 'florence', 'Islamabad', 'madrid']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['tehran', 'yazd', 'mashhad', 'shiraz', 'tabriz']
+finale results: ['tehran', 'yazd', 'Cancun', 'shiraz']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['yazd', 'shiraz', 'mashhad', 'tehran', 'tabriz']
+finale results: ['Cancun', 'yazd', 'shiraz', 'tehran']
+------------------
+
+Flat Fact
+Input text: For my upcoming getaway, I'm envisioning luxury beaches that combine high-end comfort with a stunning seaside setting. Given my high status and desire for a short but opulent escape, I'm looking for a destination where white sandy beaches meet crystal clear waters, and every detail exudes luxury. From five-star beachfront resorts to private sunset sails, this brief vacation will be a lavish indulgence in coastal elegance, providing a perfect blend of relaxation and sumptuousness in a spectacular beach setting.
+key features:([], [], [], [], ['high'], [], [], ['short'], [], [], ['beaches', 'beaches'], ['luxury', 'luxury'], [])
+funded locations: ['paris', 'miami', 'sentosa', 'copenhagen']
+finale results: ['miami', 'sentosa', 'Lyon']
+------------------
+
+Flat Fact
+Input text: I'm seeking an exhilarating adventure in the cold, majestic mountains. My ideal journey involves trekking through crisp, snowy landscapes, where the air is fresh and the views are breathtaking. As an adventurer at heart, I long to conquer challenging mountain trails, camp under the starry sky, and wake up to the serene beauty of frost-covered peaks. This cold mountain adventure promises to be a thrilling escape from the everyday.
+key features:([], [], [], ['cold'], [], ['adventure', 'adventure'], [], ['long'], [], [], ['mountains'], [], [])
+funded locations: ['oslo', 'kathmandu']
+finale results: ['Los Angeles', 'oslo', 'kathmandu']
+------------------
+
+Flat Fact
+Input text: Kathmandu Oslo Bern
+key features:(['kathmandu', 'oslo', 'bern'], [], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['oslo', 'bern', 'kathmandu']
+finale results: ['Los Angeles', 'oslo', 'kathmandu']
+------------------
+
+Flat Fact
+Input text: I'm seeking an exhilarating adventure in the cold, majestic mountains. My ideal journey involves trekking through crisp, snowy landscapes, where the air is fresh and the views are breathtaking. As an adventurer at heart, I long to conquer challenging mountain trails, camp under the starry sky, and wake up to the serene beauty of frost-covered peaks. This cold mountain adventure promises to be a thrilling escape from the everyday.
+key features:([], [], [], ['cold'], [], ['adventure', 'adventure'], [], ['long'], [], [], ['mountains'], [], [])
+funded locations: ['kathmandu', 'oslo']
+finale results: ['kathmandu', 'Los Angeles', 'oslo']
+------------------
+
+Flat Fact
+Input text: Kathmandu Oslo Bern
+key features:(['kathmandu', 'oslo', 'bern'], [], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['kathmandu', 'bern', 'oslo']
+finale results: ['kathmandu', 'Los Angeles', 'oslo']
+------------------
+
+Flat Fact
+Input text: Kathmandu Oslo Bern
+key features:(['kathmandu', 'oslo', 'bern'], [], [], [], [], [], [], [], [], [], [], [], [])
+funded locations: ['kathmandu', 'bern', 'oslo']
+finale results: ['kathmandu', 'Los Angeles', 'oslo']
+------------------
+
+Flat Fact
+Input text: Embarking on a medium-length journey, I aim to immerse myself in the cultural depth of ancient European cities. With a mid-range budget, my focus will be on experiencing the rich tapestry of history and art that defines Europe's storied past. This adventure will blend the allure of ancient heritage with the comfort of mid-range accommodations, creating a balanced and enriching cultural exploration.
+key features:([], [], [], [], [], ['cultural', 'adventure', 'cultural'], [], [], ['european'], ['ancient', 'ancient'], [], ['mid-range', 'mid-range'], [])
+funded locations: ['athens', 'madrid', 'florence', 'lisbon', 'marseille']
+finale results: ['madrid', 'athens', 'Islamabad', 'florence']
+------------------
+
+Flat Fact
+Input text: As a solo traveler with a passion for ancient cultures, I'm eager to immerse myself in the rich heritage of the Persian language. My journey is not just about sightseeing but delving deep into the linguistic roots of one of the world's oldest languages. Traveling alone will allow me the freedom to explore at my own pace, meet local speakers, and gain a firsthand understanding of the nuances of Persian in its native setting.
+key features:([], [], [], [], [], [], ['solo'], [], [], ['ancient'], [], [], ['persian', 'persian'])
+funded locations: ['tabriz', 'tehran', 'yazd', 'mashhad', 'shiraz']
+final results: ['shiraz', 'Cancun', 'yazd', 'tehran']
+------------------
+

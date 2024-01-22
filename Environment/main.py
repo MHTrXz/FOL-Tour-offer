@@ -59,7 +59,12 @@ class App(tkinter.Tk):
         output += "\nfunded locations: " + str(results)
 
         finalResults = self.check_connections(results)
-        output += "\n finale results: " + str(finalResults)
+
+        if finalResults == -1:
+            results = FindCities.findCitiesUnion(locations)
+            finalResults = self.check_connections(results)
+
+        output += "\nfinal results: " + str(finalResults)
 
         output += "\n------------------\n"
 
@@ -85,6 +90,7 @@ class App(tkinter.Tk):
         """Mark extracted locations on the map."""
         self.marker_list = []
         for address in locations:
+            print(address)
             marker = self.map_widget.set_address(address, marker=True)
             if marker:
                 self.marker_list.append(marker)
